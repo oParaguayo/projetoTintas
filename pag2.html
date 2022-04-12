@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title><link rel="stylesheet" href="./css/style2.css">
+</head>
+
+<body>
+    <h2>MEDIDAS</h2>
+    <div class="text">
+        <br>
+        1. PRIMEIRO PASSO É TIRAR AS MEDIDAS DA ALTURA E <br> COMPRIMENTO  DA PAREDE A SER PINTADA USANDO FITA MÉTRICA.
+        <br>
+        <br>
+        2.DEPOIS DISSO, VOCÊ VAI MULTIPLICAR ESSAS DUAS MEDIDAS E O <br> RESULTADO SERÁ A QUANTIDADE DE METROS QUADRADOS A SEREM PINTADOS.
+        <br>
+        <br>
+        3. COM O RESULTADO EM MÃOS, BASTA PROCURAR A EMBALAGEM DO PRODUTO DESEJADO <br> QUE TENHA O RENDIMENTO  IGUAL OU UM POUCO MAIOR DO QUE A ÁREA A SER PINTADA.
+
+    </div>
+    
+    <div class="calculo">
+        <label id="medicao" for="medicao" >MEDIÇÕES: </label>
+        <input class="med" type="number" id="ml" placeholder="Largura da parede(L)">
+        <input class="med" type="number" id="ma" placeholder="Altura da parede(H)">
+    </div>
+    <div class="portas">
+        <label id="tit" for="portas">PORTAS: </label>
+        <input class="por" type="number" id="p" placeholder="Quantidade de portas">
+        <input class="por" type="number" id="pl" placeholder="Largura(L)">
+        <input class="por" type="number" id="pa" placeholder="Altura(H)">
+    </div>
+    <div class="janelas">
+        <label id="tit" for="Janelas">JANELAS: </label>
+        <input class="jan" type="number" id="j" placeholder="Quantidade de janelas">
+        <input class="jan" type="number" id="jl" placeholder="Largura(L)">
+        <input class="jan" type="number" id="ja" placeholder="Altura(H)">
+    </div>
+    <div class="demao">
+        <label id="tit" for="demaos">DEMÃOS: </label>
+        <input type="number" id="dm" placeholder="Quantidade:">
+    </div>
+    <div class="rend">
+        <label id="tit" for="rendimentoLata">LATA DE TINTA M²: </label>
+        <input type="number" id="rl" placeholder="Rende:">
+    </div>
+   
+    <button id="calc">CALCULAR</button>
+    <br>
+    <button id="limp">LIMPAR</button>
+
+    <div class="resp">
+        <p id="rr"></p>
+    </div>
+
+
+    <script src="./js/escola.js "></script>
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    
+    background-image: url(../img/sala3.jpg);
+    background-repeat: no-repeat; 
+    background-size: 1400px 700px;    
+}
+
+h2{
+    margin-left: 595px;
+    margin-right: 595px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(240, 255, 255, 0.473);
+    
+}
+
+.calculo{
+ margin-left: 480px; 
+ font-family: 'Oswald', sans-serif;
+ margin-top: -270px;
+
+}
+.med{
+    border-radius: 10px;
+    height: 30px;
+}
+.portas{
+    margin-left: 500px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.por{
+    border-radius: 10px;
+    height: 30px;
+}
+
+.janelas{
+    margin-left: 490px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.jan{
+    border-radius: 10px;
+    height: 30px;
+}
+.demao{
+    margin-left: 490px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.rend{
+    margin-left: 490px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    height: 30px;
+}
+#calc{
+    margin-left: 490px;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+}
+#limp{
+    margin-left: 500px;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+}
+.text{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(240, 255, 255, 0.473);
+    width: 400px;
+    margin-left: 30px   ;
+    border: 1px solid black;
+}
+#rr{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.resp{
+    margin-left: 650px;
+    margin-top: -70px;
+    margin-right: 300px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: rgba(240, 255, 255, 0.473);
+    
+}
